@@ -1,9 +1,8 @@
-Link
-
+# Link
 
 https://chirag3110.github.io/Portfolio/
 
-#Screenshots
+# Screenshots
 
 For Desktop
 
@@ -12,5 +11,6 @@ For Desktop
 
 For Mobile Phones
 
-![image](https://user-images.githubusercontent.com/56937775/100758307-5fbb4c80-3415-11eb-9a06-e21a16f27e2b.png)
+![image](https://user-images.githubusercontent.com/56937775/100758491-93967200-3415-11eb-9097-47bf24573939.png)
+
 
