@@ -620,7 +620,7 @@ header{
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 435px){
     header{
         font-family: 'El Messiri', sans-serif;
         font-size: 45px;
