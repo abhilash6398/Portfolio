@@ -1,3 +1,6 @@
+var ele=document.querySelector("#home");
+var x=getComputedStyle(ele);
+var homedisplay=x.display;
 function openevt(evnt,name) {
     var i, tabs,tabcontent;
     tabcontent=document.getElementsByClassName('content');
@@ -10,6 +13,12 @@ function openevt(evnt,name) {
     {
         tabs[i].className=tabs[i].className.replace("active","");
     }
-    document.getElementById(name).style.display='flex';
+    if(screen.width<=450){
+        document.getElementById(name).style.display='inline';
+    }
+    else{
+        document.getElementById(name).style.display='flex';
+    }
+
     evnt.currentTarget.className+=" active";
 }  

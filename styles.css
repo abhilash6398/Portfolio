@@ -1,3 +1,4 @@
+@media screen and (max-width: 1440px){
 header{
     font-family: 'El Messiri', sans-serif;
     font-size: 64px;
@@ -112,4 +113,1063 @@ header{
     background-color: rgb(236, 236, 236);
     box-shadow: rgb(155, 37, 37) 0 0 10px;  
     margin: auto;
+}
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        font-family: 'El Messiri', sans-serif;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: -15px;
+        color: rgb(5, 5, 36);
+    }
+    
+    #nav{
+        text-align: center;
+        background-color: rgba(9, 9, 41, 0.925);
+        color: rgb(238, 237, 232);
+    }
+    .nav_items{
+        list-style-type: none;
+        font-size: 20px;
+        padding: 10 12 10 12;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: -4px;
+    }
+    .nav_items:hover{
+        background-color: rgba(190, 36, 36, 0.849);
+        transition: 0.3s;
+    }
+    .active{
+        background-color: rgba(212, 47, 47, 0.849);
+    }
+    .active:hover{
+        background-color: rgba(153, 31, 31, 0.849); 
+    }
+        
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        padding: 30px;
+        display: none;
+    }
+    
+    #home{
+        display: flex;
+    }
+    #div_home{
+        margin-left: 50px;
+        padding: 20px;
+        background-color: rgb(238, 236, 236);
+    }
+    
+    #education{
+        display: none;
+    }
+    .div_edu{
+        text-align:center;
+        background-color: rgb(236, 236, 236);
+        font-size: 17px;
+        margin: 15px;
+        box-shadow: gray 0 0 3px;
+    }
+    #head_edu{
+        font-size: 20px;
+        background-color: chocolate;
+        color: rgba(27, 27, 71, 0.801);
+        height: 25px;
+        margin-bottom: 20px;
+        padding: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #msit_img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #rmjs_img{
+        height: 130px;
+        width: 120px;
+    }
+
+    #skills{
+        background-color: lavender;
+        padding: 20px;
+        display: none;
+    }
+    .div_skills{
+        margin: auto;
+        padding: 10px;
+    }
+    #skills_img{
+        text-align: center;
+    }
+    
+    #webd_img{
+        height: 120px;
+        width: 250px ;
+    }
+    
+    #lib_img{
+        height: 110px;
+        width: 330px ;
+    }
+
+    #cpp_img{
+        height: 110px;
+        width: 80px ;
+    }
+
+    #python_img{
+        height: 70px;
+        width: 230px ;
+    }
+
+    #achieve{
+        background-color: lavender;
+        margin: auto;
+        display: none;
+        font-size: 17px;
+    }
+    
+    
+    #contact{
+        display:none;
+        text-align: center;
+        font-size: 20px;
+        margin: 5px;    
+    }
+    #git{
+        padding: 20px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(51, 50, 50) 0 0 5px;
+        margin: auto;
+    }
+    #linkedin{
+        padding: 20px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(25, 49, 116) 0 0 5px;
+        margin: auto;
+    }
+    #gmail{
+        padding: 20px;
+        font-size:18px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(155, 37, 37) 0 0 5px;  
+        margin: auto;
+    }
+   
+}
+
+@media screen and (max-width: 768px){
+    
+    header{
+        font-family: 'El Messiri', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        color: rgb(5, 5, 36);
+    }
+     
+    #home_name{
+        font-size: 20px;
+    }
+
+    #nav{
+        text-align: center;
+        background-color: rgba(9, 9, 41, 0.925);
+        color: rgb(238, 237, 232);
+        
+    }
+    .nav_items{
+        list-style-type: none;
+        font-size: large;
+        padding: 8 10 8 10;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        cursor: pointer;
+        
+    }
+    .nav_items:hover{
+        background-color: rgba(190, 36, 36, 0.849);
+        transition: 0.3s;
+    }
+    .active{
+        background-color: rgba(212, 47, 47, 0.849);
+    }
+    .active:hover{
+        background-color: rgba(153, 31, 31, 0.849); 
+    }
+        
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        display: none;
+    }
+    
+    #home{
+        display: flex;
+    }
+    #div_home{
+        padding: 20px;
+        background-color: rgb(238, 236, 236);
+        font-size: 14px;
+    }
+    
+    #education{
+        display: none;
+
+    }
+    .div_edu{
+        text-align:center;
+        font-size: 15px;
+        padding: 0 0 15 0 ;
+        margin: 5px;     
+        box-shadow: gray 0 0 3px;
+    }
+
+    #msit_img{
+        height: 130px;
+        width: 130px;
+    }
+
+    #rmjs_img{
+        height: 110px;
+        width: 100px;
+    }
+
+    #head_edu{
+        font-size: 15px;
+        background-color: chocolate;
+        color: rgba(27, 27, 71, 0.801);
+        height: 20px;
+        padding: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #skills{
+        background-color: lavender;
+        padding: 20px;
+        display: none;
+    }
+    .div_skills{
+        margin: auto;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #skills_img{
+        text-align: center;
+    }
+    
+    #webd_img{
+        height: 120px;
+        width: 230px;
+    }
+    
+    #lib_img{
+        height: 100px;
+        width: 240px;
+    }
+
+    #cpp_img{
+        height: 80px;
+        width: 70px;
+    }
+
+    #python_img{
+        height: 50px;
+        width: 150px;
+    }
+
+    #achieve{
+        background-color: lavender;
+        margin: auto;
+        display: none;
+        font-size: 15px;
+    }
+
+    #ribbon_img{
+        height: 120px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    
+    #prakriti_img{
+        height: 120px;
+        width: 120px;
+        margin-left: 10px;
+    }
+
+    #contact{
+        display:none;
+        text-align: center;
+        font-size: 15px;    
+    }
+    #git{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(51, 50, 50) 0 0 5px;
+        margin: auto;
+    }
+    #linkedin{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(25, 49, 116) 0 0 5px;
+        margin: auto;
+    }
+    #gmail{
+        padding: 10px;
+        font-size:15px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(155, 37, 37) 0 0 5px;  
+        margin: auto;
+    }
+
+    #git_img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #linkedin_img{
+        height: 120px;
+        width: 150px;
+    }
+
+    #gmail_img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 655px){
+    header{
+        font-family: 'El Messiri', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        color: rgb(5, 5, 36);
+    }
+     
+    #home_name{
+        font-size: 20px;
+    }
+
+    #nav{
+        text-align: center;
+        background-color: rgba(9, 9, 41, 0.925);
+        color: rgb(238, 237, 232);
+        
+    }
+    .nav_items{
+        list-style-type: none;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-flex;
+        cursor: pointer;
+        
+    }
+    .nav_items:hover{
+        background-color: rgba(190, 36, 36, 0.849);
+        transition: 0.3s;
+    }
+    .active{
+        background-color: rgba(212, 47, 47, 0.849);
+    }
+    .active:hover{
+        background-color: rgba(153, 31, 31, 0.849); 
+    }
+        
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        display: none;
+    }
+    
+    #home{
+        display: flex;
+    }
+    #div_home{
+        padding: 20px;
+        background-color: rgb(238, 236, 236);
+        font-size: 14px;
+    }
+    
+    #education{
+        display: none;
+
+    }
+    .div_edu{
+        text-align:center;
+        font-size: 14px;
+        padding: 0 0 15 0 ;
+        margin: 5px;     
+        box-shadow: gray 0 0 3px;
+    }
+
+    #msit_img{
+        height: 120px;
+        width: 120px;
+    }
+
+    #rmjs_img{
+        height: 100px;
+        width: 90px;
+    }
+
+    #head_edu{
+        font-size: 14px;
+        background-color: chocolate;
+        color: rgba(27, 27, 71, 0.801);
+        height: 17px;
+        padding: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #skills{
+        background-color: lavender;
+        padding: 20px;
+        display: none;
+    }
+    .div_skills{
+        margin: auto;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #skills_img{
+        text-align: center;
+    }
+    
+    #webd_img{
+        height: 120px;
+        width: 230px;
+    }
+    
+    #lib_img{
+        height: 100px;
+        width: 240px;
+    }
+
+    #cpp_img{
+        height: 80px;
+        width: 70px;
+    }
+
+    #python_img{
+        height: 50px;
+        width: 150px;
+    }
+
+    #achieve{
+        background-color: lavender;
+        margin: auto;
+        display: none;
+        font-size: 15px;
+    }
+
+    #ribbon_img{
+        height: 120px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    
+    #prakriti_img{
+        height: 120px;
+        width: 120px;
+        margin-left: 10px;
+    }
+
+    #contact{
+        display:none;
+        text-align: center;
+        font-size: 15px;    
+    }
+    #git{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(51, 50, 50) 0 0 5px;
+        margin: auto;
+    }
+    #linkedin{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(25, 49, 116) 0 0 5px;
+        margin: auto;
+    }
+    #gmail{
+        padding: 10px;
+        font-size:15px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(155, 37, 37) 0 0 5px;  
+        margin: auto;
+    }
+
+    #git_img{
+        height: 130px;
+        width: 130px;
+    }
+
+    #linkedin_img{
+        height: 110px;
+        width: 140px;
+    }
+
+    #gmail_img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    header{
+        font-family: 'El Messiri', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        color: rgb(5, 5, 36);
+    }
+     
+    #home_name{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #my_img{
+        height: 260px;
+        width: 195px;
+    }
+
+    #nav{
+        
+        background-color: rgba(9, 9, 41, 0.925);
+        color: rgb(238, 237, 232);
+        padding-left: 4px;
+        
+    }
+    .nav_items{
+        list-style-type: none;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: list-item;
+        cursor: pointer;
+        
+    }
+    .nav_items:hover{
+        background-color: rgba(190, 36, 36, 0.849);
+        transition: 0.3s;
+    }
+    .active{
+        background-color: rgba(212, 47, 47, 0.849);
+    }
+    .active:hover{
+        background-color: rgba(153, 31, 31, 0.849); 
+    }
+        
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        display: none;
+    }
+    
+    #home{
+        display: inline;
+        text-align: center;
+    }
+    #div_home{
+        padding: 15px;
+        background-color: rgb(238, 236, 236);
+        font-size: 14px;
+        text-align: left;
+        margin: 20px;
+    }
+    
+    #education{
+        display: none;
+
+    }
+    .div_edu{
+        text-align:center;
+        font-size: 14px;
+        padding: 0 0 10 0 ;
+        margin: 0 50 30 50;     
+        box-shadow: gray 0 0 3px;
+    }
+
+    #msit_img{
+        height: 130px;
+        width: 130px;
+    }
+
+    #rmjs_img{
+        height: 110px;
+        width: 90px;
+    }
+
+    #head_edu{
+        font-size: 18px;
+        background-color: chocolate;
+        color: rgba(27, 27, 71, 0.801);
+        height: 20px;
+        padding: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #skills{    
+        display: none;
+    }
+    .div_skills{
+        padding: 15px;
+        font-size: 14px;
+        text-align: left;
+        margin: 30px;
+        background-color: rgb(238, 236, 236);
+    }
+    #skills_img{
+        margin: 0 30 30 30;
+    }
+    
+    #webd_img{
+        height: 80px;
+        width: 150px;
+    }
+    
+    #lib_img{
+        height: 80px;
+        width: 200px;
+    }
+
+    #cpp_img{
+        height: 60px;
+        width: 50px;
+    }
+
+    #python_img{
+        height: 40px;
+        width: 130px;
+    }
+
+    #achieve{
+        display: none;
+        font-size: 14px;
+    }
+
+    #ribbon_img{
+        height: 110px;
+        width: 90px;
+        margin-left: 90px;
+    }
+    
+    #prakriti_img{
+        height: 110px;
+        width: 110px;
+        margin-left: 20px;
+    }
+
+    #contact{
+        display:none;
+        text-align: center;
+        font-size: 14px;    
+    }
+    #git{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(51, 50, 50) 0 0 5px;
+        margin: 0 80 30 80;
+    }
+    #linkedin{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(25, 49, 116) 0 0 5px;
+        margin: 0 80 30 80;
+    }
+    #gmail{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(155, 37, 37) 0 0 5px;  
+        margin: 0 80 30 80;
+    }
+    
+    #git_img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #linkedin_img{
+        height: 100px;
+        width: 150px;
+    }
+
+    #gmail_img{
+        height: 60px;
+        width: 60px;
+    }   
+}
+
+@media screen and (max-width: 375px){
+    header{
+        font-family: 'El Messiri', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        color: rgb(5, 5, 36);
+    }
+     
+    #home_name{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #my_img{
+        height: 260px;
+        width: 195px;
+    }
+
+    #nav{
+        
+        background-color: rgba(9, 9, 41, 0.925);
+        color: rgb(238, 237, 232);
+        padding-left: 4px;
+        
+    }
+    .nav_items{
+        list-style-type: none;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: list-item;
+        cursor: pointer;
+        
+    }
+    .nav_items:hover{
+        background-color: rgba(190, 36, 36, 0.849);
+        transition: 0.3s;
+    }
+    .active{
+        background-color: rgba(212, 47, 47, 0.849);
+    }
+    .active:hover{
+        background-color: rgba(153, 31, 31, 0.849); 
+    }
+        
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        display: none;
+    }
+    
+    #home{
+        display: inline;
+        text-align: center;
+    }
+    #div_home{
+        padding: 15px;
+        background-color: rgb(238, 236, 236);
+        font-size: 14px;
+        text-align: left;
+        margin: 20px;
+    }
+    
+    #education{
+        display: none;
+
+    }
+    .div_edu{
+        text-align:center;
+        font-size: 14px;
+        padding: 0 0 10 0 ;
+        margin: 0 50 30 50;     
+        box-shadow: gray 0 0 3px;
+    }
+
+    #msit_img{
+        height: 110px;
+        width: 110px;
+    }
+
+    #rmjs_img{
+        height: 100px;
+        width: 80px;
+    }
+
+    #head_edu{
+        font-size: 18px;
+        background-color: chocolate;
+        color: rgba(27, 27, 71, 0.801);
+        height: 20px;
+        padding: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #skills{    
+        display: none;
+    }
+    .div_skills{
+        padding: 15px;
+        font-size: 14px;
+        text-align: left;
+        margin: 30px;
+        background-color: rgb(238, 236, 236);
+    }
+    #skills_img{
+        margin: 0 30 30 30;
+    }
+    
+    #webd_img{
+        height: 70px;
+        width: 140px;
+    }
+    
+    #lib_img{
+        height: 70px;
+        width: 180px;
+    }
+
+    #cpp_img{
+        height: 50px;
+        width: 45px;
+    }
+
+    #python_img{
+        height: 40px;
+        width: 120px;
+    }
+
+    #achieve{
+        display: none;
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    #ribbon_img{
+        height: 100px;
+        width: 80px;
+        margin-left: 70px;
+    }
+    
+    #prakriti_img{
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    #contact{
+        display:none;
+        text-align: center;
+        font-size: 14px;    
+    }
+    #git{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(51, 50, 50) 0 0 5px;
+        margin: 0 80 30 80;
+    }
+    #linkedin{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(25, 49, 116) 0 0 5px;
+        margin: 0 80 30 80;
+    }
+    #gmail{
+        padding: 5px;
+        font-size: 14px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(155, 37, 37) 0 0 5px;  
+        margin: 0 80 30 80;
+    }
+    
+    #git_img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #linkedin_img{
+        height: 100px;
+        width: 150px;
+    }
+
+    #gmail_img{
+        height: 60px;
+        width: 60px;
+    }   
+}
+
+@media screen and (max-width: 320px){
+    header{
+        font-family: 'El Messiri', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        color: rgb(5, 5, 36);
+    }
+     
+    #home_name{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #my_img{
+        height: 220px;
+        width: 160px;
+    }
+
+    #nav{
+        background-color: rgba(9, 9, 41, 0.925);
+        color: rgb(238, 237, 232);
+        padding-left: 4px;
+        
+    }
+    .nav_items{
+        list-style-type: none;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: list-item;
+        cursor: pointer;
+        
+    }
+    .nav_items:hover{
+        background-color: rgba(190, 36, 36, 0.849);
+        transition: 0.3s;
+    }
+    .active{
+        background-color: rgba(212, 47, 47, 0.849);
+    }
+    .active:hover{
+        background-color: rgba(153, 31, 31, 0.849); 
+    }
+        
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        display: none;
+    }
+    
+    #home{
+        display: inline;
+        text-align: center;
+    }
+    #div_home{
+        padding: 15px;
+        background-color: rgb(238, 236, 236);
+        font-size: 13px;
+        text-align: left;
+        margin: 20px;
+    }
+    
+    #education{
+        display: none;
+
+    }
+    .div_edu{
+        text-align:center;
+        font-size: 13px;
+        padding: 0 0 10 0 ;
+        margin: 0 30 30 30;     
+        box-shadow: gray 0 0 3px;
+    }
+
+    #msit_img{
+        height: 95px;
+        width: 95px;
+    }
+
+    #rmjs_img{
+        height: 86px;
+        width: 75px;
+    }
+
+    #head_edu{
+        font-size: 15px;
+        background-color: chocolate;
+        color: rgba(27, 27, 71, 0.801);
+        height: 18px;
+        padding: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #skills{    
+        display: none;
+    }
+    .div_skills{
+        padding: 15px;
+        font-size: 13px;
+        text-align: left;
+        margin: 25px;
+        background-color: rgb(238, 236, 236);
+    }
+    #skills_img{
+        margin: 0 30 30 30;
+    }
+    
+    #webd_img{
+        height: 60px;
+        width: 130px;
+    }
+    
+    #lib_img{
+        height: 60px;
+        width: 160px;
+    }
+
+    #cpp_img{
+        height: 50px;
+        width: 45px;
+    }
+
+    #python_img{
+        height: 30px;
+        width: 100px;
+    }
+
+    #achieve{
+        display: none;
+        font-size: 13px;
+    }
+
+    #ribbon_img{
+        height: 90px;
+        width: 70px;
+        margin-left: 60px;
+    }
+    
+    #prakriti_img{
+        height: 85px;
+        width: 85px;
+        margin-left: 20px;
+    }
+
+    #contact{
+        display:none;
+        text-align: center;
+        font-size: 14px;    
+    }
+    #git{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(51, 50, 50) 0 0 5px;
+        margin: 0 60 30 60;
+    }
+    #linkedin{
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(25, 49, 116) 0 0 5px;
+        margin: 0 60 30 60;
+    }
+    #gmail{
+        padding: 5px;
+        font-size: 14px;
+        background-color: rgb(236, 236, 236);
+        box-shadow: rgb(155, 37, 37) 0 0 5px;  
+        margin: 0 60 30 60;
+    }
+    
+    #git_img{
+        height: 90px;
+        width: 90px;
+    }
+
+    #linkedin_img{
+        height: 90px;
+        width: 130px;
+    }
+
+    #gmail_img{
+        height: 50px;
+        width: 50px;
+    }   
 }

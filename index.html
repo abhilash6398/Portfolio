@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Resume</title>
+        <title>Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="css/all.css">
@@ -9,12 +9,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">   
     </head>
-
+    
     <header>RESUME</header>
 
     <body>
         <hr style="width: 50%;">
-
+        
         <ul id="nav">
             <li class="nav_items" onclick="openevt(event,'home')">Home</li>
             <li class="nav_items" onclick="openevt(event,'education')">Education</li>
@@ -24,12 +24,12 @@
         </ul>
 
         <section class="content" id="home">
-            <div style="margin-left: 30;">
-                <img src="images/cks.jpg" height="305px" width="230px" style="box-shadow: rgb(107, 106, 106) 0 0 10px;">
+            <div>
+                <img src="images/cks.jpg" id="my_img" height="305px" width="230px" style="box-shadow: rgb(107, 106, 106) 0 0 10px;">
             </div>
 
             <div id="div_home">
-                <h1 style="color: rgb(20, 10, 48);"><u>Chirag Kumar Sharma</u></h1><br>
+                <h1 id="home_name" style="color: rgb(20, 10, 48);"><u>Chirag Kumar Sharma</u></h1><br>
                 An enthusiast keen to work in a well established organization.<br><br>
                 I am a practical knowledge seeker. My objective is to work in an environment where my skills and knowledge reflects the
                 growth of organization and enhances my skills as well as my experience.<br><br>
@@ -40,15 +40,15 @@
         <section class="content" id="education">
             <div class="div_edu">
                 <header id="head_edu"><b>UNDERGRADUATION</b></header>
-                <img src="images/msit.png" height="170px; width=160px"><br><br>
+                <img src="images/msit.png" id="msit_img" height="170px; width=160px"><br><br>
                 B.Tech Computer Science<br>
                 Maharaja Surajmal Institute of Technology<br>
-                2018-2022<br><br>   
+                2018-2022<br>
             </div>
 
             <div class="div_edu">
                 <header id="head_edu"><b>SENIOR SECONDARY(XII)</b></header>
-                <img src="images/ramjas.png" height="170px" width="140px"><br><br>
+                <img src="images/ramjas.png"  id="rmjs_img" height="170px" width="140px"><br><br>
                 Ramjas School R.K.Puram,New Delhi<br>
                 Science Stream<br>
                 Percentage: 92.8%<br>
@@ -57,7 +57,7 @@
 
             <div class="div_edu" >
                 <header id="head_edu"><b>SECONDARY(X)</b></header>
-                <img src="images/ramjas.png" height="170px" width="140px"><br><br>
+                <img src="images/ramjas.png" id="rmjs_img" height="170px" width="140px"><br><br>
                 Ramjas School R.K.Puram,New Delhi<br>
                 CGPA: 9.8/10<br>
                 Year: 2016<br><br>
@@ -66,10 +66,10 @@
 
         <section class="content" id="skills">
             <div class="div_skills" id="skills_img">
-                <img src="images/webd.png" height="120px" width="280px"><br><br>
-                <img src="images/lib.png" height="120px" width="350px"><br><br>
-                <img src="images/c++.png" height="130px" width="100px">&nbsp;&nbsp;
-                <img src="images/python.png" height="80px" width="250px">                
+                <img src="images/webd.png" id="webd_img" height="120px" width="280px"><br><br>
+                <img src="images/lib.png" id="lib_img" height="120px" width="350px"><br><br>
+                <img src="images/c++.png" id="cpp_img" height="130px" width="100px">&nbsp;&nbsp;
+                <img src="images/python.png" id="python_img" height="80px" width="250px">                
             </div>
 
             <div class="div_skills" >
@@ -110,9 +110,9 @@
                 <b>WORK SAMPLES</b><br>
                 <a href="https://github.com/chirag3110/Covid19Project.git">Covid-19 Data Visualization</a><br>
                 <a href="https://github.com/chirag3110/FaceVerfication.git">Face Verification</a><br>
-                <a href="https://github.com/chirag3110/CastleDungeons_Game.git">An Inter Ficion Game</a><br><br>
+                <a href="https://github.com/chirag3110/CastleDungeons_Game.git">An Inter Fiction Game</a><br><br>
                 <b>EXPERIENCE</b><br>
-                I have no job experience but I'm actively looking for internships and contribute as much as I can.
+                I have no job experience but I'm actively looking for internships and would like to contribute as much as I can.
             </div>
         </section>
 
@@ -127,27 +127,27 @@
                 </ul>
             </div>
             <div>
-                <img src="images/ribbon.png" height="200px" width="180px">
-                <img src="images/prakriti.jpg" height="190px" width="190px">
+                <img src="images/ribbon.png" id="ribbon_img" height="200px" width="180px">
+                <img src="images/prakriti.jpg" id="prakriti_img" height="190px" width="190px">
             </div>
         </section>
 
         <section class="content" id="contact">
             <div id="git">
                 <b>GitHub</b><br>
-                <img src="images/github.png"  height="200px" width="200px"><br>
+                <img src="images/github.png" id="git_img" height="200px" width="200px"><br>
                 <a href="https://github.com/chirag3110">chirag3110</a><br>
             </div>
 
             <div id="linkedin">                
                 <b>LinkedIn</b><br>
-                <img src="images/linkedin.png" height="200px" width="250px"><br>
+                <img src="images/linkedin.png" id="linkedin_img" height="200px" width="250px"><br>
                 <a href="https://www.linkedin.com/in/chirag-sharma-2a43531b4/">Chirag Sharma</a>
             </div>
 
             <div id="gmail">
                 <b>Gmail</b><br><br><br>
-                <img src="images/gmail.png"  height="110px" width="110px"><br><br><br>
+                <img src="images/gmail.png" id="gmail_img" height="110px" width="110px"><br><br><br>
                 cks.31000@gmail.com
             </div>
         </section>
