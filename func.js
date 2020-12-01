@@ -13,7 +13,7 @@ function openevt(evnt,name) {
     {
         tabs[i].className=tabs[i].className.replace("active","");
     }
-    if(screen.width<=450){
+    if(screen.width<=480){
         document.getElementById(name).style.display='inline';
     }
     else{
