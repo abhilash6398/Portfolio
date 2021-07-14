@@ -114,6 +114,13 @@ header{
     box-shadow: rgb(155, 37, 37) 0 0 10px;  
     margin: auto;
 }
+#call{
+    padding: 20px;
+    font-size:18px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: #80c904 0 0 10px;  
+    margin: auto;
+}
 }
 
 @media screen and (max-width: 1024px){
